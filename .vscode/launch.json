@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "name": "Depurador do Python: Django",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}\\manage.py",
+            "args": [
+                "runserver"
+            ],
+            "django": true,
+            "autoStartBrowser": false
+        }
+    ]
+}
